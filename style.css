@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:#008080;
+}
+.login-from{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    margin-top: 300px;
+}
+.login-from{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #000;
+}
+.login-from h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login-from p{
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.login-from input{
+    font-size: 16px;
+    width: 90%;
+    opacity: calc(0.5);
+    padding: 10px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+.login-from input:hover{
+    width: 90%;
+    padding: 10px 10px;
+    opacity: calc(1);
+    transition: all 0.5s ease-in;
+    background-color:rgb(20, 26, 80);
+    
+}
+.login-from button{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0;
+    padding: 12px 7px;
+    width: 50%;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0;
+    text-align: center;
+    margin-left: 85px;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.meta h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.911);
+    text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.74);
+    margin-top: 30px;
+}   
+.meta h3{
+    text-align: end;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.rule h2{
+    text-align: center;
+    margin-top: 15px;
+}
+.rule h3{
+    width: 80%;
+    margin: 0 auto;
+    word-spacing: 3px;
+}
+/*footer start*/
+footer{
+    width: 100%;
+    height: 240px;
+    background-color:#096066;
+    position: absolute;
+    color: #000;
+    margin-top: 800px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+footer .foot .foot3{
+    width: 45%;
+    color: rgba(255,255,255, 0.5);
+}footer .foot .foot3 h3{
+    color: #000;
+}
+footer p{
+    color:rgba(255,255,255, 0.5) ;
+}
+footer .foot .foot2 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot2 button{
+    font-size: 18px;
+    color: #ddd;
+    background-color: rgb(4,69,107);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer  .foot .foot2 button:hover{
+    background-color: #bd163f;
+    box-shadow: 5px 5px 5px yellow;
+    transition: all .25s ease-in;
+    transform: s 1.5s;
+}
+/*footer end*/
